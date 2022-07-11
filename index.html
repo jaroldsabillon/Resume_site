@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Projec 2 - Resume</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <div id="section1" class="mt-5 p-4 bg-dark text-white text-center mt-auto">
+        <h1 id="header">Jarold Sabillon</h1>
+        <h3 id="header2"><i>West Palm Beach, Fl - 561-578-0472</i></h3>
+        <h3 id="header3"><a id="email"
+                href="mailto:Jaroldsabillon2011@gmail.com"><i>Jaroldsabillon2011@gmail.com</i></a></h3>
+    </div>
+    <!-- Main container -->
+    <div id="content" class="container mt-5 d-flex flex-column flex-row">
+        <div class="row">
+            <!-- BIO - about me -->
+            <div id="left" class="col-sm-4">
+                <h2 id="about">About Me</h2>
+
+                <img id="resumepic" src="imgs/resumepic.jpg" alt="Jarold with a chicken">
+                <p id="bio">&emsp; Welcome to my resume page!
+                        My name is Jarold Sabillon, I am a first generation University student.
+                        I have been interested in software and hardware development from the day
+                        I first layed hands on a computer. I found myself frustrated by its sluggishness
+                        and saught ways to improve performance. I learned what individual components did and how
+                        software
+                        interacted with them. I hope to develop effective means
+                        to provide useful hardware and efficient software to those around the world.
+                        </p>
+
+                        <!-- Links -->
+                <h3 class="mt-4">Some Links</h3>
+                <ul class="nav nav-pills flex-column">
+                    <li class="nav-item">
+                    <li><a href="https://github.com/jaroldsabillon" target="_blank">GitHub</a></li>
+                    <li class="nav-item">
+                    <li><a href="https://www.linkedin.com/in/jarold-sabillon-551485200/" target="_blank">LinkedIn</a></li>
+                    <li class="nav-item">
+                    <li><a href="https://replit.com/@jaroldsabillon/Knapsack-problem-4b" target="_blank">Knapsack Solution</a></li>
+                </ul>
+                <hr class="d-sm-none">
+            </div>
+            <!-- For body content -->
+            <div id="sectiion2" class="col-sm-8">
+                <h2>Education</h2>
+                <h4>Bachelor of Science in Computer Science, Florida Atlantic University</h4>
+                <p>Expected Graduation Spring 2023</p>
+                <div id="spacing">
+                    <p>GPA: 3.77/4.00</p>
+                    <p>Dean's list Fall 2021</p>
+                </div>
+    
+                <h2 class="mt-5">Skills</h2>
+                <h5>Programming:</h5>
+                <ul>
+                    <li> C++/C: Used for Datastructures, Algorithms, and Microcontrollers(MSP40--series, Arduino).</li>
+                    <li>Python: Data dcience, Machine learning, Automating tasks.</li>
+                    <li>SQL: Creating relational databases in MySQL.</li>
+                    <li> Dart: In tandem with Flutter for mobile app development.</li>
+                    <li> JavaScript: Used for fullstack development.
+                        <ul>
+                            <li>Libraries: JQuery, Node.js, React, AngularJS, Express, MongoDB.</li>
+                        </ul>
+                    </li>
+                    <li> Web Development: HTML, CSS, bootstrap, Flutter, JS libraries.</li>
+                </ul>
+                <h5>Software:</h5>
+                <ul>
+                    <li>Git: For uploading projects</li>
+                    <li>Burp: Cybersecurity offense attacks, Capture the Flag events.</li>
+                    <li>Solidworks/AutoCAD: Developing functional 3D Models and 3D prints.</li>
+                    <li>MySQL: Developing relational databases in SQL.</li>
+                    <li>Android Studio: Emulating Android devides.</li>
+                    <li>Visual Studio Code: Editor used in web/software/app development.</li>
+                    <li>Microsoft Office: Word, Powerpoint, Excel.</li>
+
+                </ul>
+                <h2 class="mt-5">Activities</h2>
+                <ul>
+                    <li>CodePath Cybersecurity spring course: Learn offense hacking technqiues - certified.</li>
+                    <li>Google Student Developer Club: Solution Challenge 2022, Google Cloud.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img id="caro1" src="imgs/FAU1.png" alt="FAU logo" class="d-block">
+            </div>
+            <div class="carousel-item">
+                <img id="caro2" src="imgs/GSDC.png" alt="GSDC logo" class="d-block">
+            </div>
+            <div class="carousel-item">
+                <img id="caro3" src="imgs/faucamp.jpg" alt="FAU campus" class="d-block">
+            </div>
+        </div>
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon " style="color:black"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <div id="footer" class="mt-5 p-4 bg-dark text-white text-center mt-auto">
+        <p>Made by: Jarold Sabillon Z:23638144</p>
+        <p>Spring 2022</p>
+    </div>
+
+</body>
+
+</html>
